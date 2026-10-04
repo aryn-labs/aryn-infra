@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.tfvars
+!*.tfvars.example
+*.tfstate
+*.tfstate.*
+.terraform/
+**/secrets/
+*.pem
+*.p12
+*.pfx
+*.key
+*.log
+.DS_Store
+Thumbs.db
