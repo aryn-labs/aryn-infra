@@ -12,3 +12,7 @@ Directories:
 - `.github/workflows/`: CI/CD pipelines when real checks exist.
 
 Principles: separate dev/test/prod, cost ceilings, least-privilege CI permissions, signed releases when available, rollback plans, and explicit approval before provisioning paid resources.
+
+The [cloud proxy review example](deployment/cloud/README.md) was copied from
+application source with verified provenance. It remains an undeployed example;
+owner-approved publication to `main` precedes application-source relocation.

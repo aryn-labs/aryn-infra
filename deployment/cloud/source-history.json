@@ -1,0 +1,12 @@
+{
+  "source_repository": "aryn-labs/aryn",
+  "source_commit": "31491840dfbcadbb6ebc852a41ec0f64ee31aa73",
+  "source_path": "docs/deployment-security.md",
+  "source_blob": "141bd930aa2b8cc01994304c45086d7639991f69",
+  "source_section": "Reverse proxy contoh kontrak; nginx fenced block",
+  "verified_copy_sha256": "13c57cf9aba67554d24502c3feab2f1a9668e5d1de76fa9ebec0cfb3ff467fbb",
+  "destination_path": "deployment/cloud/nginx.conf",
+  "classification": "review/UAT example only; not deployed; certificates and credentials are external",
+  "normalized_content_sha256": "13c57cf9aba67554d24502c3feab2f1a9668e5d1de76fa9ebec0cfb3ff467fbb",
+  "hash_semantics": "verified_copy_sha256 records the exact extracted copy; normalized_content_sha256 normalizes CRLF to LF for portable Git checkout verification."
+}
