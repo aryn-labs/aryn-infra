@@ -13,6 +13,12 @@ Directories:
 
 Principles: separate dev/test/prod, cost ceilings, least-privilege CI permissions, signed releases when available, rollback plans, and explicit approval before provisioning paid resources.
 
+[Isolated operational targets](docker/operational_targets/README.md) provides a
+real disposable service, independent endpoint observations, constrained fault
+injection, bounded resources and identity-checked cleanup. Product Core admission,
+approval and evidence remain in `aryn`; this repository owns only the service and
+trusted local provisioning/lifecycle mechanism. No public deployment is performed.
+
 The [cloud proxy review example](deployment/cloud/README.md) was copied from
 application source with verified provenance. It remains an undeployed example;
 owner-approved publication to `main` precedes application-source relocation.
